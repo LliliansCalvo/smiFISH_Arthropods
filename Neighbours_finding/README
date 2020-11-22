@@ -1,9 +1,10 @@
 All tutorials needed to find neighbour and convert neighbours IDs to mRNA content used in the paper are provided here. 
-Neighbours finding can be done using two methods:
-- Polygons build from the mmebrane staning 
-- Eucledian distance calculated using a user definied distance from each center point (cell)
 
-In order to follow the tutorial the users can donwload our provided raw data in the Raw data/ folder. 
+Neighbours finding can be done using two methods:
+- Polygons build from the membrane staning 
+- Eucledian distance calculated using a user defined distance from each center point (cell)
+
+In order to follow the tutorial the users can download our provided (test) raw data in the Raw_data/ folder. 
 The results of the script are also provided in the folder Results/ for comparaison. 
 
 For more details about the different methods see publication 
