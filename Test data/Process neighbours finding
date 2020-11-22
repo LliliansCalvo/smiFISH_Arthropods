@@ -22,7 +22,7 @@ Cell_ID	  n_1	  n_2 	n_3	  n_4	  n_5 	n_6	  n_7	  n_8
 4	        1	     5  	9	    10  	15  	244 	246	  NA
 5	        1	     4  	10  	79  	246 	510	  NA	  NA
 
->head(gt)
+> head(gt)
 
   Cell.ID   gt.spots
        0       78
