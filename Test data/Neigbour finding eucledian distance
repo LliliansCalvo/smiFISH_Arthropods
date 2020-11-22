@@ -24,6 +24,7 @@
 #Filter for distance smaller than 8 (radius,this can be adjusted to any specific value the use wants)
 > df2 <- df1_dist_m %>% subset(value < 8)
 > head(df2)
+
      ID neig    value
 1     0    0 0.000000
 8     7    0 6.890674
