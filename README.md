@@ -2,6 +2,8 @@
 Raw data and scripts for "smiFISH and embryo segmentation for single-cell multi-gene RNA quantification in arthropods" Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*.  2020
 
 
+Neigbour finding tutorial can ce found in Neigbour finding tutorial
+
 Neigbour finding tutorial
 In order to calculate neigbours for each cell we used our mesurements from Imaris segmentation. We got X,Y,Z coordinates for each cell as well as for membranes spots. 
 These mesurements were then imported into R and processed as detaled bellow. 
