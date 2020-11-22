@@ -1,2 +1,2 @@
 # smiFISH_Arthropods
-Raw data and scripts for Calvo, Pettini et al. 2020
+Raw data and scripts for "smiFISH and embryo segmentation for single-cell multi-gene RNA quantification in arthropods" Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*.  2020
