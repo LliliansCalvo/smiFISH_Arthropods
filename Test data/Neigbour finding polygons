@@ -29,7 +29,6 @@ These mesurements were then imported into R and processed as detaled bellow #
 ### A plot like the one showed in Figure # Appears##
 
 #Expand all polygons of 0.6um
-
 > df_80k_0.6_sf <- st_as_sf(df_80k,
                    coords = c('X', 'Y', 'Z')) %>%
     group_by(Cell_ID) %>%
