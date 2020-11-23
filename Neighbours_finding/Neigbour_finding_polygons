@@ -23,7 +23,7 @@ These mesurements were then imported into R and processed as detaled bellow #
     st_convex_hull()
     
     
-    plot(df_80k_sf, col = sf.colors(categorical = TRUE, alpha = .5), main = "80K 0exp")
+> plot(df_80k_sf, col = sf.colors(categorical = TRUE, alpha = .5), main = "80K 0exp")
 
 
 ### A plot like the one showed in Figure # Appears##
@@ -84,6 +84,6 @@ These mesurements were then imported into R and processed as detaled bellow #
 6       5     1     4    10    79   246   510    NA    NA
 
 #Write results
-> write.csv(results_80k_0.6, 2020.01.16_results_polygons_80k_exp_0.6.csv, na="", row.names=FALSE)
+> write.csv(results_80k_0.6, 2020.11.16_results_polygons_80k_exp_0.6.csv, na="", row.names=FALSE)
 
 
