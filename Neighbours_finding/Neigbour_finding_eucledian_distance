@@ -1,7 +1,7 @@
 > library('reshape')
 > library('tidyverse')
 
-> df <- read.csv("Cell_Positions.csv")
+> df <- read.csv("Figure5_Cells_XYZ_Positions.csv")
 > rownames(df) <- df[,1]
 > df=df[,-1]
 

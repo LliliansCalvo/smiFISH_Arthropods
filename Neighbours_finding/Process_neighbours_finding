@@ -11,7 +11,7 @@ this tutorial could be followed to replace the neighbours' cells by their mRNA c
 
 #Load both datasets 
 > df <- read.csv("2020.11.16_results_polygons_80k_exp_0.6.csv")
-> gt <- read.csv("gt_spots_test_data.csv")
+> gt <- read.csv("Figure4_gt_Spots.csv")
 
 > head(df)
 

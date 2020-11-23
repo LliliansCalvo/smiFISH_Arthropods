@@ -2,7 +2,7 @@
 These mesurements were then imported into R and processed as detaled bellow #
 
 > library("sf")
-> df_80k <- read.csv('80K_Spots.csv')
+> df_80k <- read.csv('Figure4_80K_Spectrin_Spots_XYZ_Positions')
 > colnames(df_80k) <- c("Cell_ID", "Spot_ID", "X", "Y", "Z")
 > head(df_80k)
 
