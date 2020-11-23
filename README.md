@@ -3,7 +3,7 @@ smiFISH_Arthropods
 --------------------
 
 Raw data and scripts for "smiFISH and embryo segmentation for single-cell multi-gene RNA quantification in arthropods" 
-Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*. 2020
+Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*+. 2020
 
 The tutorial described here will allow to determine the neighbours of each cell in an embryo or tissue when XYZ coordinates 
 of each cell are provided. If direct neighbours (touching cells) are desired the polygon method tutorial should be used. 
