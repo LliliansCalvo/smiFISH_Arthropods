@@ -1,4 +1,7 @@
-# smiFISH_Arthropods
+--------------------
+smiFISH_Arthropods
+--------------------
+
 Raw data and scripts for "smiFISH and embryo segmentation for single-cell multi-gene RNA quantification in arthropods" Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*.  2020
 
 Neighbour finding R tutorials and raw test data data can be find in Neighbours_finding/
@@ -12,6 +15,10 @@ The purpose of this tutorial and the provided test data is to allow even user wi
 
 These tutorial/code are available for anyone to use however acknowledgement to the author Llilians Calvo and citation of the corresponding publication (Calvo, Pettini et al. 2020) is required. 
 
+
+--------------------
+Folders description
+--------------------
 /Neighbours_finding/ contains the Tutorial to find the neighbours and convert neighbours into mRNA content using R. 
 /Neighbours_finding/Raw_data/ contains the test data to run the tutorial 
 /Neighbours_finding/Results/ contains the output of the tutorial when run with the provided test data
