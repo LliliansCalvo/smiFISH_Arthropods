@@ -45,11 +45,13 @@
 60   62    0
 1984  1    1
 
-> dim(df3) [1] 13270     2
+> dim(df3) 
+[1] 13270     2
 
 #Remove self interactions (when ID and neigh are the same)
 > df4 <-  subset(df3, ID != neig)
-> dim(df4) [1] 11288     2
+> dim(df4) 
+[1] 11288     2
 
 
 > library(dplyr) 
