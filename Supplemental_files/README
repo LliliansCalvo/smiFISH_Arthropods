@@ -6,6 +6,6 @@ Supplemental data used for the each figure
 
 Figure 3: Files/data for histograms
 
-Figure 4: Supplemental files for code (also provided in raw_data)
+Figure 4: Supplemental files for code for cell neighbour (provided in raw_data) as well as mRNA per cell for all genes. These are the files used for neighbour calculation, and substitution of mRNA per cell for cell variability calculation. 
 
 Figure 5: Files/data for heatmap construction
