@@ -5,6 +5,6 @@ Neighbours finding can be done using two methods:
 - Eucledian distance calculated using a user defined distance from each center point (cell)
 
 In order to follow the tutorial the users can download our provided (test) raw data in the Raw_data/ folder. 
-The results of the script are also provided in the folder Results/ for comparaison. 
+The results of the script are also provided in the folder Neighbours_results/ for comparaison. 
 
 For more details about the different methods see publication 

@@ -32,6 +32,6 @@ Folders description
 --------------------
 /Neighbours_finding/ contains the Tutorial to find the neighbours and convert neighbours into mRNA content using R. 
 /Neighbours_finding/Raw_data/ contains the test data to run the tutorial 
-/Neighbours_finding/Results/ contains the output of the tutorial when run with the provided test data
+/Neighbours_finding/Neighbours_results/ contains the output of the tutorial when run with the provided test data
 
 
