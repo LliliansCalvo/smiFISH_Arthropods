@@ -21,7 +21,7 @@ Purpose of this tutorial
 The purpose of this tutorial and the provided test data is to allow even user with basic knowledge of R to be able to perform these 
 analysis in their entirety. The codes are fairly simple, fast and very light so that they can be run from any machine. Only R and
 the mentioned packages in the tutoral are required. However, if any problem is found please contact the author
-llilians.calvogonzalez@postgrad.manchester.ac.uk or the correponding author tom.pettini@manchester.ac.uk for any clarification or help. 
+llilians.calvo@gmail.com or the correponding author pettini.tom@gmail.com for any clarification or help. 
 
 These tutorial/code are made available for anyone to use however acknowledgement to the author Llilians Calvo and citation of the 
 corresponding publication (Calvo, Pettini et al. 2020) is required. 
