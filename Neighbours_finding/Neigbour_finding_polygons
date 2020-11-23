@@ -1,6 +1,7 @@
 #In order to calculate neigbours for each cell we used our mesurements from Imaris segmentation. We got X,Y,Z coordinates for each cell as well as for membranes spots. 
 These mesurements were then imported into R and processed as detaled bellow #
 
+https://github.com/r-spatial/sf/
 > library("sf")
 > df_80k <- read.csv('Figure4_80K_Spectrin_Spots_XYZ_Positions')
 > colnames(df_80k) <- c("Cell_ID", "Spot_ID", "X", "Y", "Z")
