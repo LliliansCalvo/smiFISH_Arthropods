@@ -2,3 +2,16 @@
 Raw data and scripts for "smiFISH and embryo segmentation for single-cell multi-gene RNA quantification in arthropods" Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*.  2020
 
 Neighbour finding R tutorials and raw test data data can be find in Test data/
+The tutorial described here will allow to determine the neighbours of each cell in an embryo or tissue when XYZ coordinates of each cell are provided. 
+If direct neighbours (touching cells) are desired the polygon method tutorial should be used. This code draws each cell as a polygon using membrane markers. And the edges of polygons can be slightly increased to detect overlapping touching cells. 
+
+If the user is just interested in nearby cells in a region, the euclidian distance code should be used and the radius of search can be adjusted by the user. 
+We also provide a tutorial that allows the user to substitute neighbours by the mRNA content of each cell so that further stats/analysis can be performed with ease. 
+
+The purpose of this tutorial and the provided test data is to allow even user with basic knowledge of R to be able to perform these analysis in their entirety. 
+
+These tutorial/code are available for anyone to use however acknowledgement to the author Llilians Calvo and citation of the corresponding publication (Calvo, Pettini et al. 2020) is required. 
+
+/Neighbours_finding/ contains the Tutorial to find the neighbours and convert neighbours into mRNA content using R. 
+/Neighbours_finding/Raw_data/ contains the test data to run the tutorial 
+/Neighbours_finding/Results/ contains the output of the tutorial when run with the provided test data
