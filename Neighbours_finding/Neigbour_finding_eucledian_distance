@@ -71,4 +71,4 @@ results <-  df4 %>%  mutate(rm=rowid(ID)) %>%      pivot_wider(names_from = rm, 
 5     5     1     4   246   510    NA    NA    NA    NA
 6    79     1    62    71    84   509   510    NA    NA
  
-> write.csv(results, "2020.01.16_results_eucledian_distance_center_points.csv")
+> write.csv(results, "2020.11.16_results_eucledian_distance_center_points.csv")
