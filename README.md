@@ -15,6 +15,8 @@ distance code should be used and the radius of search can be adjusted as desired
 We also provide an extra tutorial that allows the user to substitute neighbours by the mRNA content of each cell so that further 
 stats/analysis can be performed with ease. 
 
+* Equal contributions
++ Correpsonding author
 --------------------------
 Purpose of this tutorial
 --------------------------
