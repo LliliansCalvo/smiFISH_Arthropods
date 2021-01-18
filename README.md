@@ -33,6 +33,8 @@ These R scripts are made available for anyone to use however a citation of the c
 --------------------
 Folders description
 --------------------
+/Additional_files/ contains all the additional files used to generate the plots in the publication 
+
 /Neighbours_finding/ contains the R scripts  to find the neighbours and convert neighbours into mRNA content using R
 
 /Neighbours_finding/Raw_data/ contains the test data to run the tutorial 
@@ -41,6 +43,8 @@ Folders description
 
 /Heatmaps_embryo_code contains the R script for the whole embryo heatmaps 
 
-/Supplementary_Table1_Table2 contains supplementary  Table 1 and Table 2. smiFISH probes sequences and probes/fluorophores combinations.
+/Supplementary_Data/ contains supplementary  Table 1 and Table 2. All smiFISH probes sequences and probes/fluorophores combinations
+
+/Supplementary_Image_1 contains a high resolution image of Figure 2
 
 
