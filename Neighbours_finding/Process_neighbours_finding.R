@@ -1,6 +1,6 @@
 # Once neighbours have been identified by following any of the previously used tutorial 
 # (neighbours finding polygons or neighbours finding eucledian distance)
-# this tutorial could be followed to replace the neighbours' cells 
+# this tutorial could be followed to replace the neighbours cells 
 # by their mRNA content for statistic purpose. 
 
 
@@ -10,12 +10,9 @@ library(dplyr)
 library(tidyr) 
 library(data.table) 
 
+# Use the comand bellow to establish the main folder of neighbour finding as your working directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) #Automatically set working directory
 
-# First you need to make sure your working directory is the same as where the raw data is. 
-# For that you will go to the the folder where your computer downloaded the git and 
-# Use the comand bellow to establish that folder as your working directory in R 
-
-setwd("~/Downloads/smiFISH_Arthropods-main/Neighbours_finding/Raw_data") #Example of where the folder was downloaded in a mac
 print(getwd())
 
 #Load the results table on R and change the values of the neighbours 
@@ -29,7 +26,7 @@ print(getwd())
 
 #Load both datasets 
 df <- read.csv("2020.11.16_results_polygons_80k_exp_0.6.csv")
-gt <- read.csv("Figure4_gt_Spots.csv")
+gt <- read.csv("./Raw_data/Figure4_gt_Spots.csv")
 
 # Get first few lines of each dataframe
 head(df)

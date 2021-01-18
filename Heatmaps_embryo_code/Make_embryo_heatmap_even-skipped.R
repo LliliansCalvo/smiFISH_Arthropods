@@ -4,15 +4,13 @@ library(scales)
 # Code to generate whole embryo heatmap variability
 # Only eve is used for this example but the code will be the same for all the other genes
 
-# First you need to make sure your working directory is the same as where the raw data is. 
-# For that you will go to the the folder where your computer downloaded the git and 
-# Use the comand bellow to establish that folder as your working directory in R 
-
-setwd("~/Downloads/smiFISH_Arthropods-main/Neighbours_finding/Raw_data") #Example of where the folder was downloaded in a mac
+# Use the comand bellow to establish the main folder of neighbour finding as your working directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) #Automatically set working directory
+setwd('..') # Automatically go one level up current working directory
 print(getwd())
 
 # Load the variability data for even-skipped
-eve <- read.csv("Figure5_Variability_Calculations_eve.csv")
+eve <- read.csv("./Neighbours_finding/Raw_data/Figure5_Variability_Calculations_eve.csv")
 
 x = eve[,2]
 y = eve[,3]

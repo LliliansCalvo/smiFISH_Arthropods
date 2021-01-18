@@ -5,22 +5,20 @@ library(data.table)
 library(sf)
 
 
+# Use the comand bellow to establish the main folder of neighbour finding as your working directory
 
-# First you need to make sure your working directory is the same as where the raw data is. 
-# For that you will go to the the folder where your computer downloaded the git and 
-# Use the comand bellow to establish that folder as your working directory in R 
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) #Automatically set working directory
 
-setwd("~/Downloads/smiFISH_Arthropods-main/Neighbours_finding/Raw_data") #Example of where the folder was downloaded in a mac
 print(getwd())
 
 # this will print your working directory, the output should look like this:
-# "~/SOMEWHERE_IN_YOUR_COMPUTER/smiFISH_Arthropods-main/Supplemental_files"
+# "~/SOMEWHERE_IN_YOUR_COMPUTER/smiFISH_Arthropods-main/Neighbours_finding"
 
 
-# Import measurements from Imaris onto R. 
+# Import measurements from Imaris onto R, located in Raw_data
 # The starting data frame of (x,y,z) positions of Spectrin spots was obtained from Imaris 
 # by segmenting Spectrin antibody staining. Each cell is composed of several spots of spectrin signal around the membrane
-df_80k <- read.csv('Figure4_80K_Spectrin_Spots_XYZ_Positions.csv')
+df_80k <- read.csv('./Raw_data/Figure4_80K_Spectrin_Spots_XYZ_Positions.csv')
 
 #Change column names
 colnames(df_80k) <- c("Cell_ID", "Spot_ID", "X", "Y", "Z")
@@ -78,6 +76,7 @@ results_80k_0.6 = a2_80k_0.6%>%
     mutate(rn = rowid(Cell_ID)) %>%
     pivot_wider(names_from = rn, values_from = Cell_ID.1)
 
+head(results_80k_0.6)
 
 #Save results as a table that you could use in excel and visualize outside R
 write.csv(results_80k_0.6, "2020.11.16_results_polygons_80k_exp_0.6.csv", na="", row.names=FALSE)

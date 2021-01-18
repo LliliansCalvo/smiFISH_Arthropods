@@ -5,18 +5,18 @@ library(tidyr)
 library(data.table) 
 
 
-# First you need to make sure your working directory is the same as where the raw data is. 
-# For that you will go to the the folder where your computer downloaded the git and 
-# Use the comand bellow to establish that folder as your working directory in R
+# Use the comand bellow to establish the main folder of neighbour finding as your working directory
 
-setwd("~/Downloads/smiFISH_Arthropods-main/Neighbours_finding/Raw_data") #Example of where the folder was downloaded in a mac
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Automatically set working directory
+
 print(getwd())
+
 
 # Using spectrin cells were segmented in Imaris and each cell is given 
 # a position in X,Y,Z that is their center point
 # Import the cell middle position onto R 
 
-df <- read.csv("Figure5_Cells_XYZ_Positions.csv")
+df <- read.csv("./Raw_data/Figure5_Cells_XYZ_Positions.csv")
 rownames(df) <- df[,1]
 df=df[,-1]
 
