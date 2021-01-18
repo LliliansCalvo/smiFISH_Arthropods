@@ -8,6 +8,7 @@ Llilians Calvo*, Matthew Ronshaugen, Tom Pettini*+. 2020
 *Equal contributions\
 +Correpsonding author
 
+
 The R Scripts uploaded here as well as the supplemental files and the raw data allow to determine the neighbours of each cell in an embryo or tissue provided XYZ coordinates of each cell can be obtained from any segmentation software (ex. Imaris).\
 If direct neighbours (touching cells) are desired the polygon method script should be used (/Neighbours_finding/Neigbour_finding_polygons.R). This code first draws each cell as a polygon using a segmented membrane. Secondly, the edges of polygons (cells) are slightly increased to detect all the cells that share an edge (directly touching/overlapping cells). This method works in both 2D and 3D.
 However, if the user is more interested in nearby cells in a region (independently of them touching or not), the euclidian 
@@ -17,7 +18,8 @@ We also provide two extra scripts:
 - A script to substitute neighbours IDs by their mRNA content so that further stats/analysis can be performed with ease. 
 - A script to reproduce the heatmaps showed in Figure 5.
 
-All data required to run the scripts are localed in (/Neighbours_finding/Raw_data).
+All data required to run the scripts are localed in (/Neighbours_finding/Raw_data)\
+doi.org/10.5281/zenodo.4447030
 
 
 --------------------------
