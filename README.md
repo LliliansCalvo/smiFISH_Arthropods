@@ -18,7 +18,7 @@ We also provide two extra scripts:
 - A script to substitute neighbours IDs by their mRNA content so that further stats/analysis can be performed with ease. 
 - A script to reproduce the heatmaps showed in Figure 5.
 
-All data required to run the scripts are localed in (/Neighbours_finding/Raw_data).
+All data required to run the scripts are localed in (/Neighbours_finding/Raw_data)\
 doi.org/10.5281/zenodo.4447030
 
 
