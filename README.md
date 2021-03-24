@@ -27,7 +27,7 @@ Purpose of this tutorial
 --------------------------
 The purpose of this tutorial and the provided test data is to allow even users with basic knowledge of R to be able to perform/reproduce these analysis in their entirety. The codes are fairly simple, fast and very light so that they can be run from any machine. Only R and the mentioned packages in the R scripts are required. However, if any problem is found please contact the authors of the publication: llilians.calvo@gmail.com and pettini.tom@gmail.com for any clarification or help. 
 
-These R scripts are made available for anyone to use however a citation of the corresponding publication (Calvo, Pettini et al. 2020) is required. 
+These R scripts are made available for anyone to use however a citation of the corresponding publication (Calvo, Pettini et al. 2021- https://doi.org/10.1038/s42003-021-01803-0) is required. 
 
 
 --------------------
