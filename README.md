@@ -45,6 +45,6 @@ Folders description
 
 /Supplementary_Data/ contains supplementary  Table 1 and Table 2. All smiFISH probes sequences and probes/fluorophores combinations
 
-/Supplementary_Image_1 contains a high resolution image of Figure 2
+/Supplementary_Images contains high resolution images from Figures 1-3
 
 
